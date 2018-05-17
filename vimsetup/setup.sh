@@ -53,14 +53,14 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # download color scheme
-git_clone https://github.com/lmintmate/blue-mood-vim.git $HOME/.vim/bundle/
-git_clone https://github.com/ajmwagar/vim-deus.git $HOME/.vim/bundle/
-git_clone https://github.com/raphamorim/lucario.git $HOME/.vim/bundle/
+git_clone https://github.com/lmintmate/blue-mood-vim.git $HOME/.vim/bundle/blue-mood-vim.
+git_clone https://github.com/ajmwagar/vim-deus.git $HOME/.vim/bundle/vim-deus
+git_clone https://github.com/raphamorim/lucario.git $HOME/.vim/bundle/lucario
 
 mkdir -p $HOME/.vim/colors
-copy $HOME/.vim/bundle/blue-mood-vim/colors/blue-mood-vim.vim $HOME/.vim/colors/
-copy $HOME/.vim/bundle/vim-deus/colors/deus.vim  $HOME/.vim/colors/
-copy $HOME/.vim/bundle/raphamorim/colors/lucario.vim $HOME/.vim/colors/
+copy $HOME/.vim/bundle/blue-mood-vim/colors/blue-mood-vim.vim $HOME/.vim/colors/blue-mood-vim.vim
+copy $HOME/.vim/bundle/vim-deus/colors/deus.vim  $HOME/.vim/colors/deus.vim
+copy $HOME/.vim/bundle/lucario/colors/lucario.vim $HOME/.vim/colors/lucario.vim
 
 echo "Completed!"
 
