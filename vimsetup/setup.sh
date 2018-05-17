@@ -60,7 +60,7 @@ git_clone https://github.com/powerline/fonts.git /tmp/fonts
 cd /tmp/fonts && ./install.sh
 
 mkdir -p $HOME/.vim/colors
-copy $HOME/.vim/bundle/blue-mood-vim/colors/blue-mood-vim.vim $HOME/.vim/colors/blue-mood-vim.vim
+copy $HOME/.vim/bundle/blue-mood-vim/colors/blue-mood.vim $HOME/.vim/colors/blue-mood.vim
 copy $HOME/.vim/bundle/vim-deus/colors/deus.vim  $HOME/.vim/colors/deus.vim
 copy $HOME/.vim/bundle/lucario/colors/lucario.vim $HOME/.vim/colors/lucario.vim
 
