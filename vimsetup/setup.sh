@@ -57,6 +57,7 @@ git_clone https://github.com/lmintmate/blue-mood-vim.git $HOME/.vim/bundle/
 git_clone https://github.com/ajmwagar/vim-deus.git $HOME/.vim/bundle/
 git_clone https://github.com/raphamorim/lucario.git $HOME/.vim/bundle/
 
+mkdir -p $HOME/.vim/colors
 copy $HOME/.vim/bundle/blue-mood-vim/colors/blue-mood-vim.vim $HOME/.vim/colors/
 copy $HOME/.vim/bundle/vim-deus/colors/deus.vim  $HOME/.vim/colors/
 copy $HOME/.vim/bundle/raphamorim/colors/lucario.vim $HOME/.vim/colors/
